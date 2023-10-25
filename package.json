@@ -1,17 +1,17 @@
 {
-  "name": "nodejs-sandbox",
+  "name": "chamada-node",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.html",
+  "description": "Aplicativo de chamada usando Node.JS",
+  "main": "src/server.ts",
   "scripts": {
-    "start": "ts-node index.ts"
+    "start": "ts-node src/server.ts"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/codesandbox-app/static-template.git"
   },
   "keywords": [],
-  "author": "Ives van Hoorne",
+  "author": "Gabriel Teodoro Longhi",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/codesandbox-app/static-template/issues"
