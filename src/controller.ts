@@ -4,4 +4,8 @@ const filePath = "../data/students.json";
 
 const data = "Hello World!!";
 
-fs.writeFileSync(filePath, data, "utf8");
+function helloWorld() {
+  fs.writeFileSync(filePath, data, "utf8");
+}
+
+export { helloWorld };
