@@ -14,8 +14,9 @@ const defaultRoutes = Router();
 defaultRoutes.get("/", (req: Request, res: Response) => {
   res.json({ message: "hello world with Typescript" });
 });
-
-defaultRoutes.get("/hello-world", helloWorld);
+defaultRoutes.get("/hello-world", (req: Request, res: Response) => {
+  res.json({ message: helloWorld() });
+});
 
 //------ ROTAS DE ALUNOS -----------
 //Seu código aqui ...
